@@ -38,7 +38,7 @@ cacheSolve <- function(x, ...) {
   inv = x$getinv()
   
 #If 'inv' has already been calculated and stored in the cache
-# it's value will be retrieved from the cache and it will not be recalculated
+# its value will be retrieved from the cache and it will not be recalculated
   if (!is.null(inv)){
     message("getting cached data")
     return(inv)
